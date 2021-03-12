@@ -1,3 +1,6 @@
+<% if item.is_a?(Spree::ShippingManifest::ManifestItem) %>
+  <% item = item.line_item %>
+<% end %>
 <div class='customizations'>
   <%# TODO: group multi-select options (e.g. toppings) %>
   <ul class='list-group list-unstyled'>

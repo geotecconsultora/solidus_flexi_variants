@@ -1,3 +1,6 @@
+<% if item.is_a?(Spree::ShippingManifest::ManifestItem) %>
+  <% item = item.line_item %>
+<% end %>
 <% unless item.ad_hoc_option_values.empty? %>
   <% #TODO: group multi-select options (e.g. toppings) %>
 
