@@ -10,7 +10,9 @@
   <%= content_for :flexi_variants_body_js do %>
     <%= javascript_tag do %>
       $(document).on('keyup', '#<%= cust_dom_id %>', function(e) {
-
+        // find cart form that we are operating on so we can pass it to the updatePrice function
+        var cartForm = $(text_field).closest("#cart-form");
+        
         var text_field = $(this);
 
         delay(function(){
@@ -18,7 +20,7 @@
           // update the hidden price field for this file input
           $(text_field).siblings(".customization_price").val(calculate_engraving_price(text_field));
 
-          updatePrice();
+          updatePrice(cartForm);
         }, 1000 ); // delay
       }); // keyup
     <% end %>
