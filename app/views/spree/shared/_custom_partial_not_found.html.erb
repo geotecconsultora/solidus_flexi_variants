@@ -1,5 +1,5 @@
 <li>
-  <div class="col-md-<%= Spree.t(:variant_col_size) %> form-group">
+  <div class="col-md-<%= I18n.t(:variant_col_size, scope: :spree) %> form-group">
     <p><%= product_customization_type.description  %></p>
     <% product_customization_type.customizable_product_options.each_with_index do |customizable_product_option, index| %>
       <h5 class="presentation-for-customizable-product-option">

@@ -1,0 +1,55 @@
+---
+en:
+  spree:
+    variant_col_size: 12
+    required: "Obrigatório?"
+    price_modifier: "Ajuste de preço"
+    cost_price_modifier: "Modificador de preço de custo"
+    price_modifier_type: "Qual estratégia de modificador de preço esse tipo de opção usa?"
+    add_option_values: "Adicionar Valores de Opção"
+    edit_option_values: "Editar Valores de Opção"
+    notice_messages:
+      option_value_removed: "Valor de opção removido"
+      option_type_removed: "Tipo de opção removido"
+      product_customization_type_removed: "Tipo de personalização de produto removido"
+      ad_hoc_variant_exclusion_removed: "Exclusão Removida"
+    ad_hoc_variant_exclusion: 'Exclusão de variante ad hoc'
+    ad_hoc_variant_exclusions: 'Exclusões de variantes ad hoc'
+    ad_hoc_variant_exclusions_unavailable: "Você só precisa configurar exclusões quando tiver mais de um tipo de opção ad hoc"
+    product_customization_types: 'Tipos de Personalização'
+    product_customization_type: 'Tipo de Personalização do Produto'
+    customizable_product_options: 'Opções personalizáveis'
+    new_product_customization_type: 'Novo tipo de personalização de produto'
+    new_customizable_product_option: 'Nova opção personalizável'
+    new_ad_hoc_variant_exclusion: 'Nova Exclusão'
+    add_product_customization_type: 'Adicionar Tipos de Personalização de Produto'
+    add_product_customization_types: 'Adicionar Tipos de Personalização de Produto'
+    add_customizable_product_option: 'Adicionar opção personalizável'
+    editing_product_customization_type: 'Editando o tipo de personalização do produto'
+    editing_option_type: "Editando Tipo de Opção" # missing from ru
+    form_label: 'Rótulo de formulário HTML'
+    data_type: 'Tipo de dados (para validação de entrada)'
+    default_value: 'Valor padrão'
+    ad_hoc_option_types: 'Tipos de opções ad hoc'
+    ad_hoc_option_type: 'Tipo de opção ad hoc'
+    add_ad_hoc_option_type: 'Adicionar tipo de opção ad hoc'
+    partial: 'Opcionalmente substitua o parcial padrão'
+    price_per_letter: 'Preço por carta'
+    min_length: 'Comprimento Mín.'
+    multiplier: 'Multiplicador'
+    max_length: 'Comprimento Máx.'
+    max_width: 'Largura Máx.'
+    min_height: 'Pesao Mín.'
+    max_height: 'Altura Máx.'
+    min_width: 'Largura Mín.'
+    min_area: 'Área Mín.'
+    min_amount: 'Quantidade Mín.'
+    max_amount: 'Quantidade Máx.'
+    min_pricing_area: 'Área para preço Mín. (possivelmente tem área menor, mas terá o preço como se esta área)'
+    not_all_combinations_available: '*Observe que nem todas as combinações de opções estão disponíveis'
+    select_variant_options: 'Opções'
+    customizations: 'Personalizações'
+    customize: 'Customizar'
+    reset: 'Redefinir'
+    position_within_product: 'Ordem de exibição em relação a outras opções Ad Hoc (números baixos são exibidos primeiro)'
+    selected_by_default: 'Selecionado por padrão?'
